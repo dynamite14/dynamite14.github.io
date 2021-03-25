@@ -1,0 +1,73 @@
+@ font-face {
+  font-family: nunito;
+  src: url(/fonts/nunito/Nunito-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+@ font-face {
+  font-family: nunito;
+  src: url(/fonts/nunito/Nunito-Bold.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+@ font-face {
+  font-family: nunito;
+  src: url(/fonts/nunito/Nunito-Italic.woff);
+  font-weight: normal;
+  font-style: italic;
+}
+@ font-face {
+  font-family: nunito;
+  src: url(/fonts/nunito/Nunito-BoldItalic.woff);
+  font-weight: bold;
+  font-style: italic;
+}
+@ font-face {
+  font-family: montserrat;
+  src: url(/fonts/montserrat/Montserrat-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+@ font-face {
+  font-family: montserrat;
+  src: url(/fonts/montserrat/Montserrat-Bold.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+@ font-face {
+  font-family: montserrat;
+  src: url(/fonts/montserrat/Montserrat-Italic.woff);
+  font-weight: normal;
+  font-style: italic;
+}
+@ font-face {
+  font-family: montserrat;
+  src: url(/fonts/montserrat/Montserrat-BoldItalic.woff);
+  font-weight: bold;
+  font-style: italic;
+}
+h1 {
+  font-family: montserrat;
+}
+h2 {
+  font-family: montserrat;
+}
+h3 {
+  font-family: montserrat;
+}
+h4 {
+  font-family: montserrat;
+}
+
+p {
+  font-family: nunito;
+}
+a {
+  font-family: nunito;
+}
+b {
+  font-family: nunito;
+}
+div {
+  font-family: nunito;
+}
