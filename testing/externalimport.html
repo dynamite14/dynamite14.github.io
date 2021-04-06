@@ -6,10 +6,15 @@
   <meta http-equiv='pragma' content='no-cache'>
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   <link rel="stylesheet" href="/stylesheets/main.css">
+  <script src="jquery.js"></script>
+  <script>
+  $(function(){
+    $("#insertMsg").load("insert.html");
+  });
+  </script>
   <title>ACT25</title>
 </head>
 <body>
-  <p><a href=/>home</a> / </p>
-  <p>ACT25 copyright (c) CAS 2020-2021. All rights reserved.</p>
+  <div id="insertMsg"></div>
 </body>
 </html>
