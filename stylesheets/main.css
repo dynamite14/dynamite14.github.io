@@ -46,6 +46,10 @@
   font-weight: bold;
   font-style: italic;
 }
+
+body {
+  background-color: rgb(208, 243, 255);
+}
 h1 {
   font-family: barlow;
 }
@@ -70,4 +74,20 @@ b {
 }
 div {
   font-family: barlow;
+}
+
+.box-main {
+  width: 600px;
+  padding: 15px;
+  margin: auto;
+  background-image: url("/images/hexa-background.jpg");
+  background-color:white;
+  background-size: 100%;
+  border-radius: 25px;
+}
+
+.box-invis {
+  width: 600px;
+  padding: 10px;
+  margin: auto;
 }
