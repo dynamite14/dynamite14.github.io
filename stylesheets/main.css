@@ -1,3 +1,4 @@
+/* add barlow font */
 @font-face {
   font-family: barlow;
   src: url(/fonts/barlow/Barlow-Regular.woff);
@@ -52,9 +53,10 @@
    License: none (public domain)
 */
 
+/* resets */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -68,18 +70,29 @@ time, mark, audio, video {
 	vertical-align: baseline;
   font-family: barlow;
 }
+
+/* specific defaults */
+a {
+  color: blue;
+  vertical-align: baseline;
+  font-family: barlow;
+}
+
+body {
+  background-color: rgb(208, 243, 255);
+}
+
+ul {
+	list-style: circle;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-  background-color: rgb(208, 243, 255);
-}
-ul {
-	list-style: circle;
-}
 
+/* box with white background */
 .box {
   width: 600px;
   padding: 15px;
@@ -91,6 +104,7 @@ ul {
   border-radius: 25px;
 }
 
+/* box with hexagons */
 .bgbox {
   width: 600px;
   padding: 15px;
@@ -103,6 +117,7 @@ ul {
   border-radius: 25px;
 }
 
+/* centered text */
 .txt {
   width: 600px;
   padding: 10px;
