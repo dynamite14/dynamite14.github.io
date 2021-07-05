@@ -82,13 +82,24 @@ div {
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("/images/hexa-background.jpg");
   background-color:white;
   background-size: 100%;
   border-radius: 25px;
 }
 
 .bgbox {
+  width: 600px;
+  padding: 15px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/images/hexa-background.jpg");
+  background-color:white;
+  background-size: 100%;
+  border-radius: 25px;
+}
+
+.txt {
   width: 600px;
   padding: 10px;
   margin: auto;
