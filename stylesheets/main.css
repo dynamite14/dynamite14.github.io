@@ -76,7 +76,7 @@ div {
   font-family: barlow;
 }
 
-.box-main {
+.box {
   width: 600px;
   padding: 15px;
   margin: auto;
@@ -86,7 +86,7 @@ div {
   border-radius: 25px;
 }
 
-.box-invis {
+.bgbox {
   width: 600px;
   padding: 10px;
   margin: auto;
