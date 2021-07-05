@@ -79,7 +79,7 @@ div {
 .box {
   width: 600px;
   padding: 15px;
-  margin: auto;
+  margin: 20px;
   background-image: url("/images/hexa-background.jpg");
   background-color:white;
   background-size: 100%;
