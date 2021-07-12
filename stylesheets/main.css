@@ -93,9 +93,10 @@ html {
 */
 
 :root {
-  --bgcolor: rgb(208, 243, 255);
+  --bgcolor: #d0f3ff;
   --raw-bgcolor: 208, 243, 255;
 }
+/* FIRST bgcolor: #d0f3ff */
 
 /* specific defaults */
 a {
