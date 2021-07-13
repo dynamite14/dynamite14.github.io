@@ -16,12 +16,12 @@
   }
 
   a:hover {
-    background-color: var(--randcolor);
+    background-color: var(--bgcolor);
     color: black;
   }
 
   .randomcolor {
-    background-color: var(--randcolor);
+    background-color: var(--bgcolor);
   }
 
   .headbox {
@@ -31,7 +31,10 @@
   }
   </style>
 </head>
-<body class="randomcolor" onload="genColor()">
+<!-- Random background color is disabled for load time reasons. -->
+<!-- To re-enable, add onload="genColor()" to the body arguments and change CSS var from bgcolor to randomcolor. -->
+<!-- Also un-comment the script below the footer. -->
+<body class="randomcolor">
   <div class="txt">
     <div class="headbox">
       <span style="font-size: 64px; margin-right: 20px;"><b>ACT25</b></span>
@@ -78,7 +81,7 @@
     <!-- <a href="https://www.freepik.com/vectors/background" target="_blank">Background vector created by starline - www.freepik.com</a> -->
     <iframe src="copyright.html" width=100% height=auto frameBorder="0"><a href="/copyright.html">Click to view copyright message</a></iframe>
   </footer>
-  <script>
+  <!-- <script>
     function genColor() { //function name
       let colorBase = 'rgb(0, '; // hexadecimal starting symbol
       let greenValue = Math.floor(Math.random() * (255 - 235) + 235);
@@ -86,6 +89,6 @@
       color = colorBase.concat(greenValue.toString(), ', ', blueValue.toString(), ')')
       document.querySelector(':root').style.setProperty('--randcolor', color)
     }
-  </script>
+  </script> -->
 </body>
 </html>
