@@ -20,10 +20,6 @@
     color: black;
   }
 
-  .randomcolor {
-    background-color: var(--bgcolor);
-  }
-
   .headbox {
     display: flex;
     align-items: center;
@@ -31,10 +27,8 @@
   }
   </style>
 </head>
-<!-- Random background color is disabled for load time reasons. -->
-<!-- To re-enable, add onload="genColor()" to the body arguments and change CSS var from bgcolor to randomcolor. -->
-<!-- Also un-comment the script below the footer. -->
-<body class="randomcolor">
+<!-- Random background color is disabled for load time reasons. See /randomcolor.txt -->
+<body style="background-color: var(--bgcolor)">
   <div class="txt">
     <div class="headbox">
       <span style="font-size: 64px; margin-right: 20px;"><b>ACT25</b></span>
@@ -44,7 +38,7 @@
     <h2 style="margin-top: 0px;">a CAS project</h2>
     <p>Welcome to ACT25! This is a site made by CAS. Currently it is in its alpha phase, so there isn't much here.</p>
     <p style="color:red">Warning: This website is still under development. Links can change!</p>
-    <p class="mobiletext">HELLO WORLD</p>
+    <p class="mobiletext">HELLO WORLD (this text should be invisible!)</p>
   </div>
   <div class="box" style="margin-top: 0px;">
     <h2>Navigation</h2>
@@ -81,14 +75,5 @@
     <!-- <a href="https://www.freepik.com/vectors/background" target="_blank">Background vector created by starline - www.freepik.com</a> -->
     <iframe src="copyright.html" width=100% height=auto frameBorder="0"><a href="/copyright.html">Click to view copyright message</a></iframe>
   </footer>
-  <!-- <script>
-    function genColor() { //function name
-      let colorBase = 'rgb(0, '; // hexadecimal starting symbol
-      let greenValue = Math.floor(Math.random() * (255 - 235) + 235);
-      let blueValue = Math.floor(Math.random() * (255 - 205) + 205);
-      color = colorBase.concat(greenValue.toString(), ', ', blueValue.toString(), ')')
-      document.querySelector(':root').style.setProperty('--randcolor', color)
-    }
-  </script> -->
 </body>
 </html>

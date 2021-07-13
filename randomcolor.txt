@@ -1,0 +1,41 @@
+To re-enable random color on the home page:
+
+-------------------------------------------------------------------------------
+1. CSS HOVER LINK
+
+a:hover {
+  background-color: var(--VARIABLE);
+  color: black;
+}
+
+ENABLE : --randcolor
+DISABLE: --bgcolor
+-------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+2. BODY BACKGROUND COLOR
+
+ENABLE : <body style="background-color: var(--randcolor)">
+DISABLE: <body style="background-color: var(--bgcolor)">
+----------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+3. COLOR GENERATION SCRIPT
+
+ENABLE : Insert following script within <body>
+DISABLE: Remove following script from <body>
+
+<script>
+  function genColor() { //function name
+    let colorBase = 'rgb(0, '; // hexadecimal starting symbol
+    let greenValue = Math.floor(Math.random() * (255 - 235) + 235);
+    let blueValue = Math.floor(Math.random() * (255 - 205) + 205);
+    color = colorBase.concat(greenValue.toString(), ', ', blueValue.toString(), ')')
+    document.querySelector(':root').style.setProperty('__randcolor', color)
+  }
+</script>
+-------------------------------------------------------------------------------
